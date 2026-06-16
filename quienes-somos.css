@@ -1,0 +1,221 @@
+/* ========================= */
+/* BANNER QUIÉNES SOMOS */
+/* ========================= */
+
+.banner-quienes{
+
+    position:relative;
+
+    height:500px;
+
+    overflow:hidden;
+
+}
+
+.img-banner{
+
+    width:100%;
+
+    height:500px;
+
+    object-fit:cover;
+
+    filter:brightness(40%);
+
+}
+
+.banner-overlay{
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    text-align:center;
+
+    color:white;
+
+    width:90%;
+
+}
+
+.banner-overlay h1{
+
+    font-size:60px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.banner-overlay p{
+
+    font-size:24px;
+
+    margin:0;
+
+}
+
+/* ========================= */
+/* HISTORIA */
+/* ========================= */
+
+#historia{
+
+    background:white;
+
+}
+
+.historia-img{
+
+    width:100%;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+#historia p,
+#historia li{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+/* ========================= */
+/* QUIÉNES SOMOS */
+/* ========================= */
+
+#empresa{
+
+    background:#f5f7fa;
+
+}
+
+#empresa p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+/* ========================= */
+/* NUESTRO ENFOQUE */
+/* ========================= */
+
+#enfoque{
+
+    background:white;
+
+}
+
+#enfoque h4{
+
+    color:#002b5c;
+
+    font-weight:700;
+
+    margin-top:20px;
+
+    margin-bottom:15px;
+
+}
+
+#enfoque p{
+
+    line-height:1.8;
+
+}
+
+/* ========================= */
+/* NUESTROS PILARES */
+/* ========================= */
+
+#pilares{
+
+    background:#f5f7fa;
+
+}
+
+#pilares h5{
+
+    color:#e10600;
+
+    font-weight:700;
+
+    margin-top:20px;
+
+    margin-bottom:15px;
+
+}
+
+#pilares p{
+
+    line-height:1.8;
+
+}
+
+/* ========================= */
+/* OBJETIVOS */
+/* ========================= */
+
+#objetivos{
+
+    background:white;
+
+}
+
+.lista-objetivos{
+
+    padding-left:25px;
+
+}
+
+.lista-objetivos li{
+
+    margin-bottom:20px;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media(max-width:768px){
+
+    .banner-quienes{
+
+        height:350px;
+
+    }
+
+    .img-banner{
+
+        height:350px;
+
+    }
+
+    .banner-overlay h1{
+
+        font-size:40px;
+
+    }
+
+    .banner-overlay p{
+
+        font-size:18px;
+
+    }
+
+}
